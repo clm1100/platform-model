@@ -1,0 +1,35 @@
+{
+    "name": "platform-model",
+    "version": "0.0.1",
+    "description": "Allmobilize Platform Model",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@git.yunshipei.net:platform-back/platform-model.git"
+    },
+    "keywords": [
+        "model",
+        "allmobilize"
+    ],
+    "author": "larry",
+    "license": "Allmobilize",
+    "devDependencies": {
+        "should": "2.1.1",
+        "mocha": "*",
+        "grunt": "~0.4.2",
+        "grunt-contrib-jshint": "*",
+        "grunt-jsbeautifier": "~0.2.6",
+        "grunt-mocha-test": "~0.8.1"
+    },
+    "dependencies": {
+        "azure": "^0.9.7",
+        "debug": "~0.7.4",
+        "moment": "~2.5.0",
+        "mongoose": "~3.8.12",
+        "q": "~0.9.7",
+        "request": "latest"
+    }
+}
